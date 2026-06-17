@@ -1,0 +1,20 @@
+.course-list .list-cell {
+    -fx-background-color: white;
+    -fx-padding: 2 4 2 4;
+}
+
+.course-list .list-cell:filled:hover {
+    -fx-background-color: #f4f9ff;
+}
+
+.course-list .list-cell:filled:selected,
+.course-list .list-cell:filled:selected:focused {
+    -fx-background-color: #eaf4ff;
+    -fx-border-color: #3498db;
+    -fx-border-width: 1;
+}
+
+.course-list .list-cell:filled:selected .label,
+.course-list .list-cell:filled:selected:focused .label {
+    -fx-text-fill: #2c3e50;
+}
